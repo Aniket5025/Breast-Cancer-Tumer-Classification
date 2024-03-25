@@ -1,0 +1,41 @@
+The Breast Cancer Tumor Classification dataset typically includes the following metadata:
+
+Number of Instances: The total number of data samples or instances in the dataset.
+Number of Attributes: The total number of features or attributes describing each instance.
+Attribute Information: Description of each attribute, such as mean radius, mean texture, mean perimeter, mean area, etc.
+Class Distribution: Distribution of instances across different classes (e.g., malignant and benign tumors).
+Missing Values: Information about missing values, if any, and how they are represented in the dataset.
+Source: The origin or the organization that collected the dataset, along with any relevant publication or citation.
+Data Format: The format of the dataset (e.g., CSV, ARFF, etc.).
+Data Size: The size of the dataset in terms of file size or memory footprint.
+Data Description: Additional information about the dataset, such as preprocessing steps applied, any transformations, or data augmentation techniques used.
+Usage: Guidelines or terms of use for utilizing the dataset in research or applications.
+Here's an example of how you might present this metadata for the Breast Cancer Tumor Classification dataset:
+
+Number of Instances: 569
+Number of Attributes: 30 (including class attribute)
+Attribute Information:
+Mean radius
+Mean texture
+Mean perimeter
+Mean area
+Mean smoothness
+Mean compactness
+Mean concavity
+Mean concave points
+Mean symmetry
+Mean fractal dimension
+...
+Class Distribution:
+Benign: 357 (62.7%)
+Malignant: 212 (37.3%)
+Missing Values: None
+Source: Original dataset from UCI Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
+Data Format: CSV
+Data Description: The dataset contains features computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. Features are computed for each cell nucleus present in the image.
+Usage: For research and educational purposes. Please cite the original source if using this dataset in publications.
+
+
+
+
+
